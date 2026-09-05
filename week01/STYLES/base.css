@@ -72,6 +72,7 @@ h1 {
 
 .card h3 {
     text-align: center;
+    clear: both;
 }
 
 .card p {
@@ -86,7 +87,7 @@ h1 {
 }
 
 .card ul {
-    margin-top: 60px;
+    margin-top: 20px;
     line-height: 2;
 }
 
