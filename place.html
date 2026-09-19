@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Learn about Santana do Livramento, Rio Grande do Sul, Brazil.">
+    <meta name="author" content="Adilson Barbosa">
+
+    <title>Santana do Livramento, Brazil</title>
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Santana do Livramento</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="place.html">Place</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <picture>
+                <source
+                    media="(min-width: 700px)"
+                    srcset="images/santana-livramento.webp">
+
+                <img
+                    src="images/santana-livramento.webp"
+                    alt="View of Santana do Livramento, Rio Grande do Sul"
+                    width="1200"
+                    height="800">
+            </picture>
+        </section>
+
+        <section class="content">
+
+            <article class="data">
+                <h2>Data</h2>
+
+                <p><strong>Location:</strong> Rio Grande do Sul, Brazil</p>
+                <p><strong>Country:</strong> Brazil</p>
+                <p><strong>Region:</strong> Southern Brazil</p>
+                <p><strong>Population:</strong> Approximately 84,000</p>
+                <p><strong>Language:</strong> Portuguese</p>
+                <p><strong>Currency:</strong> Brazilian Real (BRL)</p>
+            </article>
+
+            <article class="weather">
+                <h2>Weather</h2>
+
+                <img
+                    class="weather-icon"
+                    src="images/weather.svg"
+                    alt="Partly cloudy weather">
+
+                <p><strong>Temperature:</strong> <span id="temperature">8</span> °C</p>
+
+                <p><strong>Conditions:</strong> Partly Cloudy</p>
+
+                <p><strong>Wind:</strong> <span id="wind-speed">12</span> km/h</p>
+
+                <p>
+                    <strong>Wind Chill:</strong>
+                    <span id="wind-chill">N/A</span>
+                </p>
+            </article>
+
+        </section>
+
+        <section class="second-image">
+            <img
+                src="images/divisa.webp"
+                alt="Border between Santana do Livramento and Rivera"
+                loading="lazy">
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Adilson Barbosa |
+            Brazil
+        </p>
+
+        <p>
+            Last Modified:
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+
+</body>
+</html>
