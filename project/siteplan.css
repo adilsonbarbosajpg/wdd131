@@ -1,0 +1,59 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    color: #9B59FF;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    color: #9B59FF;
+}
+
+p, li {
+    color: white;
+}
+
+.wireframe {
+    border: 2px solid #9B59FF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.wireframe div {
+    border: 1px solid white;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+.desktop-guides {
+    display: flex;
+    gap: 10px;
+}
+
+.desktop-guides div {
+    flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .wireframe {
+        width: 90%;
+        margin: 0 auto 20px;
+    }
+
+    .desktop-guides {
+        display: block;
+    }
+}
