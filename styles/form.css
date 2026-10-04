@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+header {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    width: 90%;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+form {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+label,
+legend {
+    font-weight: bold;
+}
+
+form > label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+select,
+input[type="date"],
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #777;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+fieldset {
+    margin-top: 1.2rem;
+    padding: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+fieldset label {
+    display: block;
+    margin: 0.7rem 0;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.rating label {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.rating input {
+    display: block;
+    margin: 0 auto 0.3rem;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    background-color: #263238;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #455a64;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #455a64;
+}
+
+footer {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.4rem;
+}
+
+.confirmation {
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.confirmation h2 {
+    margin-top: 0;
+}
+
+.confirmation a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1rem;
+    background-color: #263238;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.confirmation a:hover {
+    background-color: #455a64;
+}
+
+@media screen and (min-width: 700px) {
+    main {
+        max-width: 650px;
+    }
+
+    form {
+        padding: 2rem;
+    }
+
+    .rating label {
+        font-size: 1.1rem;
+    }
+}
