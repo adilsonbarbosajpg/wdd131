@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sensitivity Guide | Gaming Zone</title>
+
+    <meta name="description" content="Learn about DPI, sensitivity, and eDPI for FPS gaming.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/gaming.css">
+    <script src="scripts/gaming.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo">GZ</a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="fps.html">FPS Guide</a>
+            <a href="sensitivity.html">Sensitivity</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <h1>Sensitivity Guide</h1>
+
+            <p>
+                Your mouse sensitivity can have a big impact
+                on your aim in FPS games.
+            </p>
+        </section>
+
+        <section class="guides">
+
+            <article class="guide-card">
+                <h2>What is DPI?</h2>
+
+                <p>
+                    DPI describes how sensitive your mouse is.
+                    A higher DPI makes the cursor move farther
+                    with the same physical mouse movement.
+                </p>
+            </article>
+
+            <article class="guide-card">
+                <h2>What is Sensitivity?</h2>
+
+                <p>
+                    Sensitivity is the setting inside the game
+                    that controls how quickly your view moves.
+                </p>
+            </article>
+
+            <article class="guide-card">
+                <h2>What is eDPI?</h2>
+
+                <p>
+                    eDPI combines your mouse DPI and your
+                    in-game sensitivity.
+                </p>
+            </article>
+
+        </section>
+
+        <section class="intro">
+
+            <h2>eDPI Calculator</h2>
+
+            <p>
+                Enter your DPI and game sensitivity.
+            </p>
+
+            <form id="sensitivity-form">
+
+                <label for="dpi">DPI:</label>
+                <input type="number" id="dpi" name="dpi" required>
+
+                <br><br>
+
+                <label for="sensitivity">Sensitivity:</label>
+                <input
+                    type="number"
+                    id="sensitivity"
+                    name="sensitivity"
+                    step="0.01"
+                    required
+                >
+
+                <br><br>
+
+                <button type="submit" class="button">
+                    Calculate eDPI
+                </button>
+
+            </form>
+
+            <p id="result"></p>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            &copy; <span id="currentyear"></span> Gaming Zone
+        </p>
+
+        <p>
+            <a href="references.html">References</a>
+        </p>
+
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+</html>
